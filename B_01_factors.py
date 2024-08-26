@@ -27,7 +27,7 @@ def num_check(question):
 
     while True:
 
-        response = float(input(question))
+        response = input(question).lower()
         if response == "xxx":
             return response
 
